@@ -1,0 +1,371 @@
+Using pre-set license
+Built from '2023.2/staging' branch; Version is '2023.2.7f1 (0a9195b3d453) revision 692629'; Using compiler version '193431935'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Core' Language: 'en' Physical Memory: 16191 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2023.2.7f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/mamae/Documents/Terrain
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+61222
+-job-worker-count
+3
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+Successfully changed project path to: C:/Users/mamae/Documents/Terrain
+C:/Users/mamae/Documents/Terrain
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [9732] Host "[IP] 141.164.22.16 [Port] 0 [Flags] 2 [Guid] 3801567959 [EditorId] 3801567959 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EV2VISUT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [9732] Host "[IP] 141.164.22.16 [Port] 0 [Flags] 2 [Guid] 3801567959 [EditorId] 3801567959 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-EV2VISUT) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+[Physics::Module] Initialized MultithreadedJobDispatcher with 3 workers.
+Library Redirect Path: Library/
+Refreshing native plugins compatible for Editor in 2.38 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2023.2.7f1 (0a9195b3d453)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/mamae/Documents/Terrain/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 Ti with Max-Q Design (ID=0x2191)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1278
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56024
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2023.2.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006014 seconds.
+- Loaded All Assemblies, in  0.833 seconds
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+- Finished resetting the current domain, in  0.545 seconds
+Domain Reload Profiling: 1374ms
+	BeginReloadAssembly (351ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (3ms)
+	RebuildCommonClasses (78ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (93ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (324ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (280ms)
+			TypeCache.Refresh (278ms)
+				TypeCache.ScanAssembly (258ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (546ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (460ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (20ms)
+			SetLoadedEditorAssemblies (9ms)
+			BeforeProcessingInitializeOnLoad (13ms)
+			ProcessInitializeOnLoadAttributes (337ms)
+			ProcessInitializeOnLoadMethodAttributes (81ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+C:\build\output\Unity-Technologies\mono\mono\metadata\icall.c:1842:
+Symbol file LoadedFromMemory doesn't match image C:\Users\mamae\Documents\Terrain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\mamae\Documents\Terrain\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  1.453 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.141 seconds
+Domain Reload Profiling: 2588ms
+	BeginReloadAssembly (609ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (10ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (72ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (670ms)
+		LoadAssemblies (590ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (291ms)
+			TypeCache.Refresh (244ms)
+				TypeCache.ScanAssembly (224ms)
+			BuildScriptInfoCaches (37ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (1142ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (775ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (7ms)
+			BeforeProcessingInitializeOnLoad (83ms)
+			ProcessInitializeOnLoadAttributes (635ms)
+			ProcessInitializeOnLoadMethodAttributes (35ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (9ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.33 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 29 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 3496 unused Assets / (1.1 MB). Loaded Objects now: 4090.
+Memory consumption went from 133.6 MB to 132.5 MB.
+Total: 11.782500 ms (FindLiveObjects: 1.033700 ms CreateObjectMapping: 0.852300 ms MarkObjects: 7.556400 ms  DeleteObjects: 2.338500 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 129012.851226 seconds.
+  path: Assets/Hipernt/Pine Pack/Textures/pine branch_Normal.png
+  artifactKey: Guid(9b201250026ea354181f15e1fa4578ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hipernt/Pine Pack/Textures/pine branch_Normal.png using Guid(9b201250026ea354181f15e1fa4578ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '91d314348e5a59cb5b1db9326ed7f497') in 0.1382673 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193346 seconds.
+  path: Assets/Hipernt/Pine Pack/Textures/plant05.png
+  artifactKey: Guid(ac5cb009f82d7d846904797df32ebaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Hipernt/Pine Pack/Textures/plant05.png using Guid(ac5cb009f82d7d846904797df32ebaf5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '58be4072d16f60706636fb6b865cb154') in 0.0198742 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009445 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0124505 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.203557 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(2c674b0532fee3e44a23ced46946be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(2c674b0532fee3e44a23ced46946be51) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter)The tree Pine1 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Pine2 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Pine3 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+The tree Pine4 must use the Nature/Soft Occlusion shader. Otherwise billboarding/lighting will not work correctly.
+ -> (artifact id: 'ac13372b288fca26789a293ed7e0db97') in 0.0708678 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 33
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0154542 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011252 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0130369 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003265 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0132073 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003338 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0126988 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002015 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0117391 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002296 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0134264 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001767 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0127373 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002949 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0137154 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000925 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0121679 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002334 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0135193 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002930 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.0132676 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.302312 seconds.
+  path: Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg
+  artifactKey: Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/ground+rock+003B_LOW.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20Larger.jpg using Guid(1d32cf45d098fe8449862b63d5bbabf2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '00000000000000000000000000000000') in 0.010903 seconds
+Import Error Code:(4)
+Message: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+  ERROR: Build asset version error: assets/textures/ground+rock+003b_low.jpg619f735f-0c48-40a2-bbe4-3d372ca18e20larger.jpg in SourceAssetDB has modification time of '2024-04-12T22:01:15.3020314Z' while content on disk has modification time of '2024-04-12T22:01:21.7492069Z'
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
